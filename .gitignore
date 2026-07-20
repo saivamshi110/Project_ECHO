@@ -1,0 +1,45 @@
+# =========================
+# LaTeX Build Files
+# =========================
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.lot
+*.lof
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
+
+# =========================
+# Operating System
+# =========================
+Thumbs.db
+.DS_Store
+
+# =========================
+# VS Code Workspace
+# =========================
+.vscode/
+
+# =========================
+# Python (Future AI Tools)
+# =========================
+
+# Generated PDF
+*.pdf
+
+__pycache__/
+*.pyc
+venv/
+.env
