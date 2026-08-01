@@ -1,0 +1,132 @@
+\chapter{Technical Architecture}
+
+\section{Overview}
+
+The technical architecture of \textit{ECHO: The Living World} is designed to provide a scalable, modular, and maintainable foundation for developing a modern open-world action role-playing game. The architecture separates game systems into independent modules that communicate through well-defined interfaces, making future expansion and maintenance easier.
+
+The design emphasizes performance, flexibility, and code reusability while supporting the game's large open world, intelligent AI systems, dynamic environments, and story-driven gameplay.
+
+\section{Architecture Layers}
+
+The game architecture is divided into the following major layers:
+
+\begin{itemize}
+    \item Presentation Layer
+    \item Gameplay Layer
+    \item Artificial Intelligence Layer
+    \item Physics Layer
+    \item Data Management Layer
+    \item Audio Layer
+    \item Rendering Layer
+\end{itemize}
+
+Each layer performs specialized responsibilities while interacting with the others through controlled communication.
+
+\section{Core Gameplay Systems}
+
+The gameplay layer manages the primary mechanics of the game, including:
+
+\begin{itemize}
+    \item Player movement
+    \item Combat mechanics
+    \item Companion interactions
+    \item Quest management
+    \item Dialogue system
+    \item Inventory management
+    \item Skill progression
+    \item Reputation system
+\end{itemize}
+
+These systems work together to provide a seamless gameplay experience.
+
+\section{Artificial Intelligence System}
+
+The AI subsystem controls:
+
+\begin{itemize}
+    \item Civilian behaviour
+    \item Enemy behaviour
+    \item Companion behaviour
+    \item Wildlife simulation
+    \item Guard patrols
+    \item Boss encounters
+\end{itemize}
+
+Each AI entity follows behaviour rules based on its role, current environment, and interaction with the player.
+
+\section{Data Management}
+
+Game data is organized into modular assets including:
+
+\begin{itemize}
+    \item Character data
+    \item Quest data
+    \item World data
+    \item Dialogue data
+    \item Item database
+    \item Save files
+\end{itemize}
+
+This modular approach simplifies updates and future content additions.
+
+\section{Rendering System}
+
+The rendering system is responsible for:
+
+\begin{itemize}
+    \item Lighting
+    \item Shadows
+    \item Weather effects
+    \item Environmental rendering
+    \item Character animation
+    \item Visual effects
+\end{itemize}
+
+The objective is to create a visually immersive world while maintaining stable performance.
+
+\section{Audio System}
+
+The audio subsystem manages:
+
+\begin{itemize}
+    \item Background music
+    \item Environmental ambience
+    \item Character dialogue
+    \item Combat sounds
+    \item Wildlife sounds
+    \item Dynamic sound effects
+\end{itemize}
+
+Audio adapts dynamically according to gameplay situations and player actions.
+
+\section{Save System}
+
+The save system records:
+
+\begin{itemize}
+    \item Story progression
+    \item Player choices
+    \item Inventory
+    \item Character progression
+    \item Companion relationships
+    \item Quest completion
+    \item World state
+\end{itemize}
+
+This ensures that player decisions have persistent consequences throughout the game.
+
+\section{Future Scalability}
+
+The modular architecture supports future improvements such as:
+
+\begin{itemize}
+    \item Downloadable content
+    \item Additional continents
+    \item New quests
+    \item New AI behaviours
+    \item Multiplayer support
+\end{itemize}
+
+\section{Summary}
+
+The technical architecture of \textit{ECHO: The Living World} provides a robust and scalable framework capable of supporting an immersive open-world RPG while allowing future expansion without major redesign.

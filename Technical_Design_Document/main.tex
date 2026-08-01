@@ -1,0 +1,120 @@
+\documentclass[12pt,a4paper]{report}
+
+%------------------------------------------------
+% Packages
+%------------------------------------------------
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{xcolor}
+
+%------------------------------------------------
+% Hyperref Setup
+%------------------------------------------------
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdftitle={ECHO: The Living World - Technical Design Document},
+    pdfauthor={Bandhike Sai Vamshi},
+    pdfsubject={Technical Design Document},
+    pdfkeywords={Game Development, Unreal Engine, TDD}
+}
+
+%------------------------------------------------
+% Page Layout
+%------------------------------------------------
+
+\onehalfspacing
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{ECHO: The Living World}
+\fancyhead[R]{Technical Design Document}
+
+\fancyfoot[C]{\thepage}
+
+\setlength{\headheight}{15pt}
+
+%------------------------------------------------
+% Document
+%------------------------------------------------
+
+\begin{document}
+
+%------------------------------------------------
+% Front Matter
+%------------------------------------------------
+
+\pagenumbering{roman}
+
+\input{chapters/00_cover}
+
+\clearpage
+
+\input{chapters/00_copyright}
+
+\clearpage
+
+\input{chapters/00_version_history}
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+%------------------------------------------------
+% Main Matter
+%------------------------------------------------
+
+\pagenumbering{arabic}
+
+\input{chapters/01_introduction}
+
+\input{chapters/02_system_architecture}
+
+\input{chapters/03_project_structure}
+
+\input{chapters/04_coding_standards}
+
+\input{chapters/05_core_gameplay_systems}
+
+\input{chapters/06_player_system}
+
+\input{chapters/07_ai_system}
+
+\input{chapters/08_combat_system}
+
+\input{chapters/09_inventory_system}
+
+\input{chapters/10_quest_system}
+
+\input{chapters/11_dialogue_system}
+
+\input{chapters/12_save_persistence}
+
+\input{chapters/13_performance_optimization}
+
+\input{chapters/14_future_expansion}
+
+\input{chapters/15_appendix}
+
+%------------------------------------------------
+% End
+%------------------------------------------------
+
+\end{document}
